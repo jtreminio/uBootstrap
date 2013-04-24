@@ -1,0 +1,25 @@
+{
+    "require": {
+        "silex/silex":                               "1.0.*",
+        "twig/twig":                                 "1.*",
+        "symfony/security":                          "2.2.*",
+        "symfony/twig-bridge":                       "2.2.*",
+        "symfony/validator":                         "2.2.*",
+        "phpunit/phpunit":                           "3.7.*",
+        "whatthejeff/nyancat-phpunit-resultprinter": "1.0.*@dev",
+        "doctrine/dbal":                             "2.3.*",
+        "monolog/monolog":                           "dev-master",
+        "swiftmailer/swiftmailer":                   "dev-master",
+        "ircmaxell/password-compat":                 "dev-master",
+        "jtreminio/test-extensions":                 "dev-master",
+        "jtreminio/zimple":                          "dev-master",
+        "igorw/config-service-provider":             "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "uBootstrap":        "src/",
+            "uBootstrap\\Tests": "tests/"
+        }
+    }
+}
